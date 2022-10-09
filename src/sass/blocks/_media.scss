@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 750px;
+    }
+    .promo {
+        &__header {
+            margin: 0;
+            font-size: 35px;
+        }
+        &__subheader {
+            margin-top: 5px;
+            font-size: 17px;
+        }
+        &__icons {
+            margin-top: 30px;
+            justify-content: flex-end;
+        }
+    }
+    .advantages {
+        &__item {
+            width: 200px;
+        }
+    }
+    .button_main {
+        margin-top: 37px;
+    }
+    .consultation {
+        padding: 86px 0 82px 0;
+        &__descr {
+            margin-top: 32px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+    .header {
+        flex-direction: column;
+        &__official {
+            display: none;
+        }
+        &__phone {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__icons {
+            justify-content: center;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            margin-top: 15px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 10px;
+        }
+    }
+    .title_left {
+        text-align: center;
+        font-size: 30px;
+    }
+    .consultation {
+        padding: 76px 0 72px 0;
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }
+    .button_header {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 320px;
+    }
+    .promo {
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .title_left {
+        font-size: 20px;
+    }
+    .feed-form {
+        width: 250px;
+        input {
+            font-size: 13px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 250px;
+            font-size: 13px;
+        }
+    }
+}
